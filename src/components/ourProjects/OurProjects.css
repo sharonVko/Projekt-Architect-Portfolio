@@ -1,0 +1,9 @@
+.our-projects{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.our-projects div img{
+    padding: 0 1vw;
+}

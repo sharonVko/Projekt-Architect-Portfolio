@@ -1,0 +1,20 @@
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 6vw;
+}
+header nav div {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+
+}
+
+header nav div a{
+   font-family: Roboto-light;
+   color: #333333;
+}
+header nav div a:hover{
+    text-decoration: overline underline 1px solid black;
+    color: black;
+}

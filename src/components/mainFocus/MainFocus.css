@@ -1,0 +1,19 @@
+.main-focus{
+    padding: 6vw;
+}
+
+.main-focus div{
+    display: flex;
+    justify-items: center;
+    padding: 2vh 0;
+    gap: 2vw;
+}
+.main-focus div article{
+    display: flex;
+    gap: 2vw;
+}
+
+h5{
+    font-size: 6rem;
+    color: #bdbdbd3b;
+}

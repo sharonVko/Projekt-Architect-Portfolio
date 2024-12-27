@@ -1,0 +1,16 @@
+.about{
+    display: flex;
+    padding: 0 6vw;
+   /*  align-items: center; */
+}
+
+.about div img{
+    padding: 1vw;
+   
+}
+
+.about-text{
+    width: 50%;
+    padding-right: 16vw;
+    
+}

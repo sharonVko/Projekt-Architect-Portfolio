@@ -6,11 +6,12 @@
     display: flex;
     justify-items: center;
     padding: 2vh 0;
-    gap: 2vw;
+    gap: 20vw;
 }
 .main-focus div article{
     display: flex;
     gap: 2vw;
+    align-items: center;
 }
 
 h5{

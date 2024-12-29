@@ -1,3 +1,3 @@
-# Projekt-Architect-Portfolio 🏢
+# Project-Architect-Portfolio 🏢
 
 ..soon to come...

@@ -2,15 +2,25 @@
     display: flex;
     padding: 0 6vw;
    /*  align-items: center; */
+  
+
 }
+
 
 .about div img{
     padding: 1vw;
    
 }
 
+.center-img{
+    display: flex;
+    align-items: center;
+}
 .about-text{
-    width: 50%;
-    padding-right: 16vw;
+    width: 65%;
+    padding: 4vh 16vw 0 0;
     
+}
+.about-text p{
+    padding: 3vh 0 1vh 0;
 }

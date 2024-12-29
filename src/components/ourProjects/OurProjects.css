@@ -2,8 +2,43 @@
     display: flex;
     flex-direction: column;
     gap: 2vw;
+    margin-bottom: 8vh;
+}
+
+.row-one{
+    display: flex;
+    gap: 1vw;
+    padding: 0 2%;
 }
 
 .our-projects div img{
     padding: 0 1vw;
+}
+
+.project-img1{
+    background-image: url(/public/IMGs/our-pro-img1.png);
+    background-repeat: no-repeat;
+    width: 50rem;
+    max-width: 50rem;
+    height: 16rem;
+    padding: 6vh 10%;
+}
+.project-img1:hover{
+    opacity: 0.5;
+}
+
+.project-img1 h3{
+    color: #FFFFFF;
+    font-size: 3.4rem;
+    /* padding: 2vh 2vw; */
+    margin-bottom: 2%;
+}
+.project-img1 p{
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+
+.our-projects button{
+    align-self: flex-end;
+    margin-right: 2.6vw;
 }

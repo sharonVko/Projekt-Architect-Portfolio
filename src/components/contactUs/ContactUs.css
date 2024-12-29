@@ -1,5 +1,6 @@
 .contact-us__section{
     margin-bottom: 14vh;
+    padding-left: 7vw;
 }
 
 .contact-wrapper{
@@ -15,12 +16,16 @@
 }
 .contact-wrapper input{
     background-color: #f3f3f3;
-    padding: 3%;
+    padding: 4%;
     width: 32vw;
     color: #8d8d8d;
     border-style: none;
     opacity: 0.7;
 }
+
+.contact-wrapper img {
+    padding:  0  0 2% 2% ;
+}
 .message-box{
-    height: 18vh;
+    height: 15vh;
 }

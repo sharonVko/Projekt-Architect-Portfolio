@@ -3,16 +3,16 @@
     flex-direction: column;
     gap: 2vw;
     margin-bottom: 8vh;
+    padding-left: 7vw;
 }
 
 .row-one{
     display: flex;
     gap: 1vw;
-    padding: 0 2%;
 }
 
 .our-projects div img{
-    padding: 0 1vw;
+    padding-right:  1vw;
 }
 
 .project-img1{

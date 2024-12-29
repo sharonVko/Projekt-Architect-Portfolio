@@ -1,5 +1,7 @@
 import "./Loader.css"
 
+/* function in root layout component */
+
 const Loader = () => {
     return ( 
        <section className="loader-section">

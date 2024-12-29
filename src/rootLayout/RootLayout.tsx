@@ -10,14 +10,14 @@ const RootLayout = () => {
     const[loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const loadingTime = setTimeout(() => setLoading(false), 4000);
-        return () => clearTimeout(loadingTime)
+        const loadingTime = setTimeout(() => setLoading(false), 4000); /* setting to false after 4 seconds */
+        return () => clearTimeout(loadingTime); /* deleting timeout */
     },[]);
 
 
     return ( 
         <>
-       
+       {/* show loader when state true, else show content */}
         {loading? (
         <Loader/>
         ):(

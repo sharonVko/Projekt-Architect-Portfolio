@@ -7,6 +7,7 @@ const Gallery = () => {
             <h2>Photo <br />
                 <span>Gallery</span>
             </h2>
+            <hr />
             <div className="gall-img__wrapper">
                 <div className="img-card">
                     <img src="https://picsum.photos/210/260?random=1" alt="random img" />

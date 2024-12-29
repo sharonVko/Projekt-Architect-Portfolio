@@ -2,6 +2,10 @@
     padding: 6vh 0 24vh 7vw;
 }
 
+.gallery h2{
+    margin-bottom: 2vh;
+}
+
 .gallery span{
     color: black;
     font-family: Roboto-reg;

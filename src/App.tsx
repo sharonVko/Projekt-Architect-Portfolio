@@ -6,6 +6,7 @@ import Gallery from './pages/gallery/Gallery'
 import RootLayout from './rootLayout/RootLayout'
 import { useState } from 'react'
 import { DarkModeContext } from './context/Context'
+import Loader from './components/loader/Loader'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 
       <Route index element={<Home/>}/>
       <Route path='gallery' element={<Gallery/>}/>
+      <Route path='loader' element={<Loader/>}/>
 
       </Route>
       </>

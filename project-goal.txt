@@ -1,0 +1,11 @@
+- **Erstellen der React-App:**
+    - Nutzt euer Terminal, um eine React-App zu erstellen. Dies wird eure Ausgangsbasis sein, auf der ihr eure Website aufbauen werdet.
+
+- **Komponenten und Props:**
+    - Arbeitet mit React-Komponenten, um die Struktur eurer Website zu organisieren. Der Einsatz von Komponenten ermöglicht es euch, wiederholende Elemente einfach wiederzuverwenden. Nutzt außerdem Props, um Inhalte zwischen Komponenten zu übertragen und eure Website dynamisch zu gestalten.
+
+- **Dark/Light Mode mit useContext():**
+    - Implementiert den Dark- und Light-Modus auf eurer Website. Verwendet dafür die useContext()-Funktion, um den Modus auf jeder Seite verfügbar zu machen. Dies ermöglicht es den Benutzern, das Erscheinungsbild der Website nach ihren Vorlieben anzupassen.
+
+- **Loadingscreen:**
+    - Ergänzt eure Website um einen Ladebildschirm, der beim Öffnen der Seite erscheint. Dieser Loadingscreen verleiht eurer Website eine professionelle Note und verbessert die Benutzererfahrung.

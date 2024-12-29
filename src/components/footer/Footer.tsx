@@ -1,12 +1,16 @@
-import Logo from "../../assets/SVG/Logo";
+import FacebookIcon from "../../assets/SVG/FacebookIcon";
+import LinkedInIcon from "../../assets/SVG/LinkedInIcon";
+import PinterestIcon from "../../assets/SVG/PinterestIcon";
+import TwitterIcon from "../../assets/SVG/TwitterIcon";
+import FooterLogo from "../../assets/SVG/FooterLogo.svg"
 import"./Footer.css"
 
 const Footer = () => {
     return ( 
-
+        <>
         <footer>
-            <div><Logo/></div>
-            <div className="info">
+            <div><img src={FooterLogo} alt="Logo" /></div>
+            <div className="info-wrapper">
                 <h4>Information</h4>
                 <a href="#">Main</a>
                 <a href="#">Gallery</a>
@@ -14,24 +18,28 @@ const Footer = () => {
                 <a href="#">Certifications</a>
                 <a href="#">Contacts</a>
             </div>
-            <div>
+            <div className="contacts-wrapper">
                 <h4>Contacts</h4>
-                <div>
-                    <p>1234 Sample Street
+            
+                    <p>1234 Sample Street <br />
                     Austin Texas 78704</p>
-                </div>
-                <div>
                     <p>512.333.2222</p>
-                </div>
-                <div>
                     <p>sampleemail@gmail.com</p>
-                </div>
+                
             </div>
             <div>
                 <h4>Social Media</h4>
-                <div></div>
+                <div className="social-icons__wrapper">
+                    <FacebookIcon/>
+                    <TwitterIcon/>
+                    <LinkedInIcon/>
+                    <PinterestIcon/>
+                </div>
             </div>
         </footer>
+        <hr />
+            <p className="copyright">© 2024 All Rights Reserved</p>
+        </>
      );
 }
  

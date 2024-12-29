@@ -1,0 +1,18 @@
+.gallery{
+    padding: 6vh 0 24vh 7vw;
+}
+
+.gallery span{
+    color: black;
+    font-family: Roboto-reg;
+}
+
+.gall-img__wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    flex-wrap: wrap;
+    padding-top: 4vh;
+}
+
+/* dark mode styling global in index css */

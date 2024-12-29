@@ -7,13 +7,38 @@ footer{
     color: #FFFFFF;
 }
 
-.info{
+.info-wrapper, .contacts-wrapper{
     display: flex;
     flex-direction: column;
 }
 
-.info a{
+.info-wrapper a{
     font-family: Roboto-light;
     color: #FFFFFF;
     padding-bottom: 12px;
+}
+
+.contacts-wrapper p{
+    padding-bottom: 12px;
+}
+.social-icons__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15%;
+}
+
+footer h4{
+    padding-bottom: 20px;
+}
+
+.copyright{
+    color: #C8C8C8;
+    font-size: 12px;
+    text-align: center;
+    background-color: #2c2c2c;
+    padding: 2vh;
+}
+hr{
+    border: 1px solid #c8c8c8;
 }

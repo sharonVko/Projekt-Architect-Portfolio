@@ -72,3 +72,11 @@ img{
 .dark svg{
   fill: #2C2C2C ;
 }
+
+.dark a, .dark p, .dark h1, .dark .gallery span{
+  color: #FFFFFF;
+}
+.dark button{
+  background-color: #FFFFFF;
+  color: black;
+}
